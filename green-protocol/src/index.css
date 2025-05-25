@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+
+/*  Header Section Css */
+
+@media (max-width:600px) {
+    .nav-list{
+        display: none;
+    }
+}
+
+
+/*  Hero Section Css */
+#hero-images{
+    border-radius: 50%;
+    box-shadow: 0 0 10px #007000;
+}
+
+@media (max-width:1024px) {
+    .hero-container{
+        height: 88vh;
+    }
+    #hero-images{
+        height: 160px;
+    }
+    .dashes{
+        width: 80px;
+        margin: 0px 10px;
+    }
+    .hero-heading{
+        font-size: 50px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width:870px) {
+    .hero-container{
+        height: 60vh;
+    }
+    #hero-images{
+        height: 130px;
+    }
+    .dashes{
+        width: 60px;
+        margin: 0px 8px;
+    }
+    .hero-heading{
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:570px) {
+    #hero-images{
+        height: 80px;
+    }
+    .dashes{
+        width: 30px;
+    }
+    .hero-heading{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+/* Expamle jsx */
+@media (max-width:640px) {
+    .exp-frst-box{
+        display: flex;
+        gap: 10px;
+    }
+    #example-text{
+        font-size: 14px;
+    }
+    .example-img{
+        height: 65px;
+    }
+
+    .arrow-container{
+        width: 50px;
+    }
+    .arrow-container img{
+        width: 100%;
+    }
+    .profit-arrow{
+        margin-top: 15px;
+        width: 30%;
+    }
+    .get-arrow{
+        margin-top: 15px;
+        width: 30%;
+    }
+    .coin{
+        height: 52px;
+    }
+
+}
+
+/* Expamle jsx */
+@media (max-width:450px) {
+    .exp-frst-box{
+        display: flex;
+        gap: 0px;
+    }
+    #example-text{
+        font-size: 14px;
+    }
+    .example-img{
+        height: 52px;
+    }
+
+    .arrow-container{
+        width: 50px;
+    }
+    .arrow-container img{
+        width: 100%;
+    }
+    .profit-arrow{
+        margin-top: 15px;
+        width: 30%;
+    }
+    .get-arrow{
+        margin-top: 15px;
+        width: 30%;
+    }
+    .coin{
+        height: 52px;
+    }
+
+}
